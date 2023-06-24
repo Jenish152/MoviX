@@ -5,7 +5,7 @@ import {
   FaGithub
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import ContentWrapper from "../contentWrapper/ContentWrapper";
+// import ContentWrapper from "../contentWrapper/ContentWrapper";
 
 import "./style.scss";
 
@@ -15,7 +15,7 @@ const Footer = () => {
   
   return (
       <footer className="footer">
-          <ContentWrapper>
+          <div className="contentWrapper">
               <ul className="menuItems">
                   <li className="menuItem">Terms Of Use</li>
                   <li className="menuItem">Privacy-Policy</li>
@@ -35,7 +35,7 @@ const Footer = () => {
                           
                   
               </div>
-          </ContentWrapper>
+          </div>
       </footer>
   );
 };
