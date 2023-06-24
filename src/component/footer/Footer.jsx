@@ -6,6 +6,7 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import ContentWrapper from "../contentWrapper/ContentWrapper";
+
 import "./style.scss";
 
 
